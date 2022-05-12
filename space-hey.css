@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&display=swap');
+
+:root {
+    --lighter-blue: #2E3440;
+    --even-lighter-blue: #434C5E;
+    --lightest-blue: #4C566A;
+    --red: #E52B50;
+    --dark-orange: #E52B50;
+    --logo-blue: #D8DEE9;
+    --light-orange: #4C566A;
+    --even-lighter-orange: #4C566A;
+}
+
+.container {
+    font-family: 'Work Sans', sans-serif;
+}
+
+a {
+    color:#E52B50;
+}
+
+nav .top {
+    display: flex;
+    align-items: center;
+    background-color: #2E3440;
+    border-radius: 1em;
+    margin-top: 1em;
+    box-shadow: 0px 0px 20px black;
+}
+
+.left, .center, .right {
+    margin: 0 2em 0 2em;
+}
+
+div[class="col w-40 left"] span[itemprop=name], div[class=general-about]{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-pic > img {
+    border-radius: 100%;
+    margin: 0 1em 1em 1em;
+}
+
+span[itemprop="name"] {
+    font-family: 'Rock Salt', cursive;
+    margin-left: -1em;
+}
+
+nav .links{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #2E3440;
+    padding: .8em;
+    border-radius: 1em;
+    margin: 1em;
+    box-shadow: 0px 0px 20px black;
+}
+
+body {
+    background: linear-gradient(#E52B50, #2E3440);
+}
+
+main {
+    border-radius: 1em;
+    background-color: #2E3440;
+    box-shadow: 0px 0px 20px black;
+    color: #D8DEE9;
+}
+
+.details{
+    display: flex;
+    flex-direction: ;
+    font-family: monospace;
+}
+
+footer {
+    width: 100%;
+    background-color: #2E3440;
+    color:#D8DEE9;
+    border-radius: 1em;
+    box-shadow: 0px 0px 20px black;
+}
+
+.details-table td {
+    display: flex;
+    margin-bottom: .5em;
+}
+
+.details-table td:first-child {
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    width: 100%;
+    border-radius: 1em 1em 0 0;
+}
+
+.details-table td:last-child {
+    border-radius: 0 0 1em 1em;
+    padding-left: 1.5em;
+}
+
+div.heading {
+    display: flex;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+.friends > .heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+#comments > .heading {
+    justify-content: center;
+}
+
+.blog-preview::before {
+    content: url("https://cdn.discordapp.com/attachments/625445613621739541/974206541060247552/919fe50550062c41a7e7aa6f7cd4fc24926331d4a195c8d2bb8d3f059a5cde47_1.mp4");
+}
+
